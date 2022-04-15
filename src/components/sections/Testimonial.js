@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-
+import Image from '../elements/Image';
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'Team ScrapKart',
+    paragraph: ''
   };
 
   return (
@@ -62,52 +62,110 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Ujjwal Sonkar.
                       </p>
+                  <Image
+                  src={require('./../../assets/images/ujjwal.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">Positon</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">CEO</a>
                   </span>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Chetan Pathak.
                       </p>
+                  <Image
+                  src={require('./../../assets/images/chetan.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">Positon</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">CTO</a>
                   </span>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Himanshu Arora.
                       </p>
+                  <Image
+                  src={require('./../../assets/images/hunny.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high">Positon</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">CTO</a>
                   </span>
                 </div>
               </div>
             </div>
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    — Soumil Taneja
+                      </p>
+                  <Image
+                  src={require('./../../assets/images/soumil.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Positon</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="#0">CLO</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    — Siddhant Rawat
+                      </p>
+                  <Image
+                  src={require('./../../assets/images/sid.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Positon</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="#0">CMO</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            
 
           </div>
         </div>

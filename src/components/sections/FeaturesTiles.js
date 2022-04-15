@@ -44,8 +44,12 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'About ScrapKart',
+    paragraph: 'How it works ? '
+  };
+  const sectionHeader1 = {
+    title: 'Software and Services',
+    paragraph: ''
   };
 
   return (
@@ -71,11 +75,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    You Request
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Drop in your name and contact in the form or in call with our executive.
+                  </p>
                 </div>
               </div>
             </div>
@@ -93,11 +97,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    We come!
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    One of our executive will come and collect stuff you want to sell!
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,18 +119,25 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Payment
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Get paid in hand cash or in your Paytm/Gpay or any wallet if you like.
+                  </p>
                 </div>
               </div>
             </div>
 
+
+
+          </div>
+
+          <SectionHeader style={{marginTop: '4rem'}} data={sectionHeader1} className="center-content" />
+          <div className={tilesClasses}>
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
+
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-04.svg')}
@@ -137,11 +148,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Web App,Mobile App- B2B, B2SMB
+
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  Cloud-based mobile solutions for Businesses, Waste Haulers & their field force, 
+Waste collectors, Communities, and Individuals*
+                  </p>
                 </div>
               </div>
             </div>
@@ -159,11 +172,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                  Support
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  Rest assured that our highly experienced team provides extended care 
+& support to collect all of your recyclable materials
+
+                  </p>
                 </div>
               </div>
             </div>
@@ -181,14 +196,17 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                  Customer Service
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  Dedicated toll-free number 123456789 to address any 
+issue related to waste management services
+                  </p>
                 </div>
               </div>
             </div>
+
+
 
           </div>
         </div>
